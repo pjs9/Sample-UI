@@ -1,0 +1,74 @@
+$bColor: #fff;
+.container-2{
+    background: $bColor;
+    font-weight: bold;
+    padding: 2em;
+    .div-1{ 
+        img{
+            height: 4em;
+            width: 4em;
+            vertical-align: middle;
+            padding-bottom: -22px;
+        }
+        p{
+            padding-top: 1em;
+            text-align: center;
+            color: rgb(53, 56, 82);
+        }
+    }
+    .div-2 p{
+        padding-top: 0.5em;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(53, 56, 82);
+    }
+    .div-3{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 6em;
+        grid-gap: 5px;
+        border-radius: 9px;
+        div{
+            background: linear-gradient(rgb(223, 245, 220),rgb(238, 248, 240)); 
+            border-radius: 7px;
+            height: 8.4em;
+            p{
+                padding: 1em;
+                color: #2EAE79;
+                text-align: center;
+                // font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+        }
+        .image{
+            height: 80px;
+            width: 80px;
+            border-radius: 39px;
+            margin-top: -3em;
+            margin-left: 5em;
+        }
+    }
+    .div-4{
+        padding-top: 3.5em;
+        button{
+            background: #4EC081;
+            color: $bColor;
+            width: 16em;
+            height: 3em;
+            text-align: start;
+            padding-top: 0.3em;
+            padding-left: 1.3em;
+            border-radius: 24px;
+            position: relative;
+            left: 33.5%;
+            word-spacing: 6.5em;
+            outline: none;
+            box-shadow: 5px 5px 5px 10px $bColor;
+        }
+        .hbutton:hover{
+            font-weight: bold;
+            height: 3.5em;
+            box-shadow: 5px 5px 5px 10px $bColor;
+            cursor: pointer;
+        }
+    }
+}

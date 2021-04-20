@@ -1,0 +1,85 @@
+$bColor: #fff;
+$fcolor: #90919A;
+
+.container-1{
+    background: #F0F2F9;
+    padding: 2em;
+    .logo{
+        background: $bColor;
+        width: 179px;
+        height: 26px;
+        text-align: center;
+        border-radius: 12px;
+        padding-top: 5px;
+        color: rgb(53, 56, 82);
+    }
+    .box-1{
+        padding-top: 3.9em;
+        div{
+            background: $bColor;
+            border-radius: 9px;
+            text-align: center;
+            height: 140px;
+        }
+        img{
+            height: 25px;
+            width: 25px;
+            border-radius: 20px;
+            margin-top: -25px;
+        }
+        #para1{
+            color: #B0B1B6;
+        }
+        #para2{
+            line-height: 0em;
+            font-size: 2.7em;
+        }
+        #span1{
+            color: $fcolor;
+        }
+        #span2{
+            color: #D7DAE3;
+            font-size-adjust: 0.75%;
+        }
+    }
+    .box-2{
+        padding-top: 8em;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        .table2, .tableb, .table4{
+            padding-left: 4em;
+        }
+        .table1 p{
+            color: $fcolor;
+        }
+        .table1 hr, .tablea hr{
+            width: 130%;
+        }
+        .tablea b{
+            color: $fcolor;
+            font-weight: lighter;
+        }
+        .tablea, .tableb{
+            line-height: 1.9em;
+            color: rgb(53, 56, 82);
+        }
+        .tablea span{
+            background: $bColor;
+            width: 2em;
+            height: 15px;
+            border-radius: 15px;
+            text-align: center;
+            padding-left: 6px;
+            padding-right: 6px;
+        }
+        .table2 b{
+            padding: 0.1em 0.4em 0.1em 0.4em;
+            background: $bColor;
+            border-radius: 5px;
+            color: rgb(36, 173, 98);
+        }
+        .table3, .table4{
+            color: rgb(53, 56, 82);
+        }
+    }
+}
